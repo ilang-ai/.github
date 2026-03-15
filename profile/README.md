@@ -1,4 +1,4 @@
-# Welcome to I-Lang 👋
+# Welcome to I-Lang (I Language) 👋
 
 **The Cross-Platform Human-AI Communication Standard Protocol**
 
