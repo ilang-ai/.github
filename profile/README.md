@@ -71,8 +71,26 @@ I-Lang Research explores how structured communication protocols reduce AI halluc
 ```
 [READ:@FILE]=>[FILT|key=important]=>[SUM|sty=bullets,ton=pro,fmt=md]=>[OUT]
 ```
-**-75% tokens. Same result. Works on every AI.**
+
+**Before** (22 words):
+> Please translate this text into English and then format the output as Markdown.
+
+**After** (1 line):
+```
+[TRANSLATE|lang=en]=>[FMT|fmt=md]=>[OUT]
+```
+
+**40-65% fewer tokens. Same result. Works on every AI.**
+
+## Powered by I-Lang
+
+Sites and products built with I-Lang protocol-layer thinking:
+
+| Product | What it does |
+|---------|-------------|
+| [ffp.news](https://ffp.news) | AI-powered frequent flyer intelligence |
+| [hotelcorporate.codes](https://hotelcorporate.codes) | Hotel corporate code database with AI editorial |
 
 ---
 
-**I-Lang Research · Eastsoft Inc. · Canada · 2026 · MIT**
+**[I-Lang Research](https://research.ilang.ai) · [Eastsoft Inc.](https://eastsoft.com) · Canada · 2026 · MIT**
