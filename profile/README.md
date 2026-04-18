@@ -62,6 +62,15 @@ I-Lang Research explores how structured communication protocols reduce AI halluc
 | [ilang-research](https://github.com/ilang-ai/ilang-research) | Academic papers and protocol specification |
 | [ilang-spec](https://github.com/ilang-ai/ilang-spec) | Protocol specification |
 
+## Hugging Face
+
+| Resource | Link |
+|----------|------|
+| Live Demo | [huggingface.co/spaces/i-Lang/ilang](https://huggingface.co/spaces/i-Lang/ilang) |
+| Training Corpus | [huggingface.co/datasets/i-Lang/ilang-instruction-corpus](https://huggingface.co/datasets/i-Lang/ilang-instruction-corpus) |
+| Protocol Spec | [huggingface.co/datasets/i-Lang/iLang-Spec](https://huggingface.co/datasets/i-Lang/iLang-Spec) |
+| All Datasets | [huggingface.co/i-Lang](https://huggingface.co/i-Lang) |
+
 ## Quick Example
 
 **Before** (67 words):
