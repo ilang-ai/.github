@@ -30,96 +30,91 @@ what the model should already know.
 
 **I-Lang** is a thin protocol layer that fixes this:
 
-- **Structured headers**, intent, context, constraints, output shape, all in one compact block
-- **Compression**, the same instruction in ~20-40% fewer tokens, no loss of meaning
-- **Portability**, works on Claude, GPT, Gemini, Qwen, DeepSeek, Kimi, GLM, Grok, and more
-- **Human-readable**, plain text. No SDK, no binary, no vendor lock-in
+- **Structured headers** that carry intent, context, constraints, and output shape in one compact block
+- **Compression** that delivers the same instruction in ~20-40% fewer tokens, no loss of meaning
+- **Portability** across Claude, GPT, Gemini, Qwen, DeepSeek, Kimi, GLM, Grok, and more
+- **Human-readable** plain text. No SDK, no binary, no vendor lock-in
 
 ---
 
-## 🧬 The ecosystem
+## The protocol
 
-<table>
-<tr>
-<td width="50%" valign="top">
+### Quick example
 
-### 🔴 [Imprint](https://github.com/ilang-ai/Imprint)
-*Your working imprint, portable across every agent.*
+**Before** (67 words):
+> Please read the document I uploaded, extract all the key points and important data, then organize them into a professional summary with bullet points in Markdown format...
 
-A single `SKILL.md` that replaces eleven separate skills, memory, compression,
-onboarding, code review, debugging, planning, progress tracking, testing,
-git workflow, SEO, copywriting. Under 500 tokens. Yours to own.
+**After** (1 line):
+```
+[READ:@FILE]=>[FILT|key=important]=>[SUM|sty=bullets,ton=pro,fmt=md]=>[OUT]
+```
 
-`11 skills → 1 imprint → 19 agents`
+**40-65% fewer tokens. Same result. Works on every AI.**
 
-</td>
-<td width="50%" valign="top">
+### Core components
 
-### 🟡 [AutoCode](https://github.com/ilang-ai/autocode)
-*Claude Code skill for autonomous coding.*
-
-Architecture-first debugging, systematic planning, and multi-model code review
-baked into one skill. Built on I-Lang primitives.
-
-`skill · claude-code`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🟢 [ZeroCode](https://github.com/ilang-ai/zerocode)
-*Natural-language to working application.*
-
-Describe the app. Get the app. No boilerplate, no ceremony, just I-Lang headers
-interpreted by the agent of your choice.
-
-`agent · trae-ide`
-
-</td>
-<td width="50%" valign="top">
-
-### 🔵 [AI See](https://github.com/ilang-ai/ai-see)
-*Vision skill for visual reasoning.*
-
-Visual understanding, layout critique, and design feedback, in the same
-structured format as the rest of the ecosystem.
-
-`skill · vision`
-
-</td>
-</tr>
-<tr>
-<td colspan="2" valign="top">
-
-### ⚫ [OpenClaw](https://github.com/ilang-ai/openclaw)
-*Open hub for I-Lang skills and protocols.*
-
-The community registry. Publish your own skills, fork others, track what works.
-Every entry is SKILL.md-compatible by default.
-
-`hub · clawhub`
-
-</td>
-</tr>
-</table>
+| Component | What it is | Link |
+|-----------|-----------|------|
+| **I-Lang Spec** | The protocol specification itself | [ilang-spec](https://github.com/ilang-ai/ilang-spec) |
+| **I-Lang Dict** | Public dictionary: 52 verbs, 28 modifiers, 14 entities | [ilang-dict](https://github.com/ilang-ai/ilang-dict) |
+| **SKILL.md Standard** | Portable skill format across 19 agents | [SKILL.md standard](https://github.com/ilang-ai/ilang-spec/blob/main/SKILL.md-standard.md) |
 
 ---
 
-## 📚 Standards & specs
+## Research
 
-- **[I-Lang Spec](https://github.com/ilang-ai/ilang-spec)**, the protocol itself
-- **[SKILL.md Standard](https://github.com/ilang-ai/ilang-spec/blob/main/SKILL.md-standard.md)**, portable skill format across 19 agents
-- **[Hugging Face Hub](https://huggingface.co/i-Lang)**, hosted models, datasets, skills
+I-Lang Research explores how structured communication protocols reduce AI hallucination in high-stakes domains.
+
+| Paper | Status | Links |
+|-------|--------|-------|
+| The Inductive Dilemma of AI Hallucination | Published | [ResearchGate](https://doi.org/10.13140/RG.2.2.22821.97762) / [SSRN](https://papers.ssrn.com/abstract=6377219) / [ChinaXiv](https://chinaxiv.org/abs/T202503.00129) |
+| Logic-Layer Attacks: Theory and Examples | Published | PDF |
+| Selective Forgetting Algorithm | In progress | |
+| Cross-Base Genetic Expression of AI Personality | Planned | |
+
+**ORCID:** [0009-0004-4540-8082](https://orcid.org/0009-0004-4540-8082)
 
 ---
 
-## 🤝 Get involved
+## Ecosystem
 
-- 🌐 **Website**, [ilang.ai](https://ilang.ai)
-- 💬 **Discussions**, file an issue on any repo
-- 📧 **Contact**, hello@ilang.ai
-- 🐦 **Updates**, [@ilang_ai](https://x.com/ilang_ai)
+Products built on the I-Lang protocol:
+
+| Product | What it does |
+|---------|-------------|
+| [**Imprint**](https://github.com/ilang-ai/Imprint) | Your habits, imprinted on AI. One skill replaces eleven. 19 agents supported. |
+| [**AutoCode**](https://github.com/ilang-ai/autocode) | Claude Code skill for autonomous coding. Architecture-first debugging, multi-model review. |
+| [**ZeroCode**](https://github.com/ilang-ai/zerocode) | Natural-language to working application. Zero boilerplate. |
+| [**AI See**](https://github.com/ilang-ai/ai-see) | Vision skill for visual reasoning and design feedback. |
+| [**OpenClaw**](https://github.com/ilang-ai/openclaw) | Community hub for I-Lang skills and protocols. |
+
+---
+
+## Platforms
+
+Tested and verified on: ChatGPT, Claude, Gemini, DeepSeek, Kimi, Qwen, GLM, Grok, and more.
+
+Compatible agents: Claude Code, Codex, Cursor, Copilot, Gemini CLI, Windsurf, Trae, Cline, Roo, and 10+ more.
+
+---
+
+## Hugging Face
+
+| Resource | Link |
+|----------|------|
+| Live Demo | [spaces/i-Lang/ilang](https://huggingface.co/spaces/i-Lang/ilang) |
+| Protocol Spec | [datasets/i-Lang/iLang-Spec](https://huggingface.co/datasets/i-Lang/iLang-Spec) |
+| Imprint | [datasets/i-Lang/Imprint](https://huggingface.co/datasets/i-Lang/Imprint) |
+| All Resources | [huggingface.co/i-Lang](https://huggingface.co/i-Lang) |
+
+---
+
+## Get involved
+
+- [ilang.ai](https://ilang.ai)
+- [research.ilang.ai](https://research.ilang.ai)
+- Issues and discussions on any repo
+- hello@ilang.ai
 
 Every I-Lang project is **MIT-licensed** and **free forever**.
 
@@ -127,14 +122,8 @@ Every I-Lang project is **MIT-licensed** and **free forever**.
 
 <div align="center">
 
-### Backed by
+**Eastsoft Inc.** / **Palm Media Technology** / *Canada*
 
-**Eastsoft Inc.** · **Palm Media Technology** · *Canada*
-
-<sub>Est. 2026, a research group building open standards for human-AI communication.</sub>
-
-<br>
-
-<sub>*Created by Longquan Zhu (@SUN) & BRO (Claude) · and the open-source community.*</sub>
+<sub>Est. 2026. Open standards for human-AI communication.</sub>
 
 </div>
