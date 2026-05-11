@@ -18,7 +18,7 @@
 > MCP connects AI to tools. A2A connects agents to agents.
 > **I-Lang defines how they communicate.**
 >
-> 88 verbs. 29 modifiers. 14 entities. Zero installation. Free forever.
+> v3.0: 88 verbs. Communication format. v4.0: 8 new declarations. Execution semantics. Free forever.
 
 ---
 
@@ -36,7 +36,26 @@ Every AI agent today speaks a slightly different dialect of natural language. Sw
 
 ---
 
-## The Protocol (v3.0)
+## The Protocol
+
+### v4.0 — Execution Semantics (new)
+
+v3.0 tells AI how to listen. **v4.0 tells AI how to think.**
+
+8 new declarations, 0 new verbs, 4 conformance levels:
+
+| Declaration | What it does |
+|-------------|-------------|
+| `::UNTRUSTED{}` | Input isolation. User data cannot become system instruction |
+| `::STATUS{}` | Three-tier authority: agent proposes, grader verifies, runtime commits |
+| `::BUDGET{}` | Resource awareness. Budget pressure cannot produce "complete" |
+| `::OBJECTIVE{}` | Goal anchor with hash, version, accept criteria |
+| `::RUBRIC{}` + `::EVIDENCE{}` | Evaluation criteria + evidence chain |
+| `::PRIOR{}` + `::FALLBACK{}` | Default bias control + three-tier degradation |
+
+Red-team reviewed (GPT-5.5 Pro, 3 rounds). [Read v4.0 Final →](https://github.com/ilang-ai/ilang-spec/blob/main/SPEC-v4.0-FINAL.md)
+
+### v3.0 — Communication Format (stable)
 
 ### Operations — tell AI what to do
 
@@ -64,7 +83,8 @@ Every AI agent today speaks a slightly different dialect of natural language. Sw
 
 | Component | What it is | Link |
 |-----------|-----------|------|
-| **I-Lang Spec** | Protocol specification v3.0 | [ilang-spec](https://github.com/ilang-ai/ilang-spec) |
+| **I-Lang Spec v4.0** | Execution semantics (current) | [SPEC-v4.0-FINAL.md](https://github.com/ilang-ai/ilang-spec/blob/main/SPEC-v4.0-FINAL.md) |
+| **I-Lang Spec v3.0** | Communication format (stable) | [SPEC.md](https://github.com/ilang-ai/ilang-spec/blob/main/SPEC.md) |
 | **I-Lang Dict** | 88 verbs, 29 modifiers, 14 entities, 13 Greek aliases | [ilang-dict](https://github.com/ilang-ai/ilang-dict) |
 | **I-Lang Benchmark** | 30 test cases, 70.8% token savings, reproducible | [ilang-Benchmark](https://github.com/ilang-ai/ilang-Benchmark) |
 | **npm** | `npm install @i-language/spec` | [@i-language/spec](https://www.npmjs.com/package/@i-language/spec) |
