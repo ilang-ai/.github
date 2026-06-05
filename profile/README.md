@@ -95,12 +95,13 @@ Red-team reviewed (GPT-5.5 Pro, 3 rounds). [Read v4.0 Final →](https://github.
 
 | Product | What it does | Stars |
 |---------|-------------|-------|
-| [**Mem-Forever**](https://github.com/ilang-ai/Mem-Forever) | Persistent AI memory. Every AI forgets you after every session. This repo doesn't. Ever. | 13 ★ |
-| [**Imprint**](https://github.com/ilang-ai/Imprint) | Your habits, imprinted on AI. One skill replaces eleven. 19 agents supported. | |
-| [**AutoCode**](https://github.com/ilang-ai/autocode) | 39 auto-activated skills for Claude Code / Codex / OpenCode. | |
+| [**Imprint**](https://github.com/ilang-ai/Imprint) | Your habits, imprinted on AI. Portable `.dna.md` profile with GENE system. Preset templates including Karpathy Mode. | 100+ ★ |
+| [**AutoCode**](https://github.com/ilang-ai/autocode) | 38+ auto-activated skills for Claude Code / Codex / OpenCode. | 57 ★ |
+| [**OpenClaw Skills + Plugins**](https://github.com/ilang-ai/ilang-openclaw) | 6 skills + 1 plugin. Lazarus, FreeMoney, token compression, and more. [ClawHub](https://clawhub.ai/user/adsorgcn) verified. | |
+| [**Mem-Forever**](https://github.com/ilang-ai/Mem-Forever) | Persistent AI memory. Every AI forgets you after every session. This repo doesn't. | 13 ★ |
 | [**ZeroCode**](https://github.com/ilang-ai/trae) | 40 Chinese skills for Trae / VS Code. Zero code, zero config, zero English. | |
+| [**TelegramGuard**](https://github.com/ilang-ai/TelegramGuard) | Telegram group moderation bot with I-Lang GENE/IMMUNE prompt architecture. | |
 | [**AI See**](https://i.ilang.ai) | Give your AI eyes. `i.ilang.ai/https://any-url` into any conversation. | |
-| [**OpenClaw Skills**](https://github.com/ilang-ai/ilang-openclaw) | Token compression, AI-to-AI prompting, universal upgrade. | |
 
 ---
 
@@ -149,7 +150,7 @@ Every I-Lang project is **MIT-licensed** and **free forever**.
 
 <div align="center">
 
-**Eastsoft Inc.** / *Canada*
+**iLang Inc.** / *Canada*
 
 <sub>Open standards for AI communication.</sub>
 
