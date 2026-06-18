@@ -16,9 +16,9 @@
 ---
 
 > MCP connects AI to tools. A2A connects agents to agents.
-> **I-Lang defines how they communicate.**
+> **I-Lang defines how they communicate — and how they judge.**
 >
-> v3.0: 88 verbs. Communication format. v4.0: 8 new declarations. Execution semantics. Free forever.
+> v3.0: Communication format. v4.0: Execution semantics. **v5.0: Vector logic judgment.** Free forever.
 
 ---
 
@@ -37,6 +37,22 @@ Every AI agent today speaks a slightly different dialect of natural language. Sw
 ---
 
 ## The Protocol
+
+### v5.0 — Vector Logic Judgment (public preview)
+
+v3.0 tells AI how to listen. v4.0 tells AI how to think. **v5.0 tells AI how to judge.**
+
+4 axioms, 11-dimensional behavior vector, three-layer architecture:
+
+| Component | What it defines |
+|-----------|----------------|
+| Four Axioms | No constant rules, irreversibility gate, consistency detection, co-evolutionary adaptation |
+| 11-Dim Vector | intent, capability, consequence, relationship, certainty, authority, reversibility, evidence, sovereignty, inertia, externality |
+| Three Layers | Exact predicates (binary) → Vector logic (continuous) → Co-evolutionary adaptation |
+| Survival Boundaries | Four irreversible collapse conditions (thermodynamic-style limits, not moral rules) |
+| Eight Modes | EXECUTE, EXECUTE_BOLDLY, OBSERVE, REFRAME, SANDBOX, DEGRADE, ESCALATE, RETREAT |
+
+**Try it:** Copy [SPEC-v5.0-PRE.md](https://github.com/ilang-ai/ilang-spec/blob/main/SPEC-v5.0-PRE.md) into any AI conversation. Model-assisted adversarial review: 0.992 completeness.
 
 ### v4.0 — Execution Semantics (new)
 
@@ -83,6 +99,7 @@ Red-team reviewed (GPT-5.5 Pro, 3 rounds). [Read v4.0 Final →](https://github.
 
 | Component | What it is | Link |
 |-----------|-----------|------|
+| **I-Lang Spec v5.0** | Vector logic judgment (preview) | [SPEC-v5.0-PRE.md](https://github.com/ilang-ai/ilang-spec/blob/main/SPEC-v5.0-PRE.md) |
 | **I-Lang Spec v4.0** | Execution semantics (current) | [SPEC-v4.0-FINAL.md](https://github.com/ilang-ai/ilang-spec/blob/main/SPEC-v4.0-FINAL.md) |
 | **I-Lang Spec v3.0** | Communication format (stable) | [SPEC.md](https://github.com/ilang-ai/ilang-spec/blob/main/SPEC.md) |
 | **I-Lang Dict** | 88 verbs, 29 modifiers, 14 entities, 13 Greek aliases | [ilang-dict](https://github.com/ilang-ai/ilang-dict) |
