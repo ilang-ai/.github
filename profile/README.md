@@ -18,6 +18,8 @@
 > MCP connects AI to tools. A2A connects agents to agents.
 > **I-Lang defines how they communicate — and how they judge.**
 >
+> I-Lang is the first protocol to formally map Greek mathematical symbols (Σ, Δ, φ, λ, Ω, ∇, μ, Π, ψ, ξ, ζ, θ, ∂) as primitive verbs for AI-to-AI communication, and the first to define a computable vector space for AI judgment (11 dimensions, 4 axioms).
+>
 > v3.0: Communication format. v4.0: Execution semantics. **v5.0: Vector logic judgment.** Free forever.
 
 ---
