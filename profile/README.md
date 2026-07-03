@@ -31,7 +31,7 @@ Every AI agent today speaks a slightly different dialect of natural language. Sw
 **I-Lang** is a communication protocol layer that fixes this:
 
 - **Structured syntax** that carries intent, context, constraints, and output shape in one compact block
-- **70.8% token savings** measured across 30 test cases, 6 categories, p < 0.0001 ([benchmark](https://github.com/ilang-ai/ilang-Benchmark))
+- **Open benchmark harness** — 30 test cases across 6 categories; real-model evaluation in progress ([benchmark](https://github.com/ilang-ai/ilang-Benchmark))
 - **Two syntaxes**: Operations for execution, Declarations for identity
 - **Portable** across Claude, GPT, Gemini, DeepSeek, Kimi, Qwen, GLM, Grok, and more
 - **Human-readable** plain text. No SDK, no binary, no vendor lock-in
@@ -105,7 +105,7 @@ Red-team reviewed (GPT-5.5 Pro, 3 rounds). [Read v4.0 Final →](https://github.
 | **I-Lang Spec v4.0** | Execution semantics (current) | [SPEC-v4.0-FINAL.md](https://github.com/ilang-ai/ilang-spec/blob/main/SPEC-v4.0-FINAL.md) |
 | **I-Lang Spec v3.0** | Communication format (stable) | [SPEC.md](https://github.com/ilang-ai/ilang-spec/blob/main/SPEC.md) |
 | **I-Lang Dict** | 88 verbs, 29 modifiers, 14 entities, 13 Greek aliases | [ilang-dict](https://github.com/ilang-ai/ilang-dict) |
-| **I-Lang Benchmark** | 30 test cases, 70.8% token savings, reproducible | [ilang-Benchmark](https://github.com/ilang-ai/ilang-Benchmark) |
+| **I-Lang Benchmark** | Open harness: 30 test cases, 6 categories; real-model results in progress | [ilang-Benchmark](https://github.com/ilang-ai/ilang-Benchmark) |
 | **npm** | `npm install @i-language/spec` | [@i-language/spec](https://www.npmjs.com/package/@i-language/spec) |
 
 ---
