@@ -164,7 +164,7 @@ Compatible agents: Claude Code, Codex, Cursor, Copilot, Gemini CLI, Windsurf, Tr
 
 - [ilang.ai](https://ilang.ai)
 - Issues and discussions on any repo
-- hello@ilang.ai
+- contact@ilang.ai
 
 Every I-Lang project is **MIT-licensed** and **free forever**.
 
