@@ -58,7 +58,7 @@ v3.0 tells AI how to listen. v4.0 tells AI how to think. **v5.0 tells AI how to 
 | Survival Boundaries | Four irreversible collapse conditions (thermodynamic-style limits, not moral rules) |
 | Eight Modes | M1 EXEC_AUTO, M2 EXEC_AUDIT, M3 CONFIRM, M4 ADVISE, M5 ASK, M6 DEFER, M7 DECLINE_ALT, M8 STOP (closed, frozen set) |
 
-**Try it:** Copy [SPEC-v5.0-PRE.md](https://github.com/ilang-ai/ilang-spec/blob/main/SPEC-v5.0-PRE.md) into any AI conversation. Model-assisted adversarial review: structural completeness 0.992.
+**Try it:** Copy [SPEC-v5.0-PRE.md](https://github.com/ilang-ai/ilang-spec/blob/main/SPEC-v5.0-PRE.md) into ChatGPT, Claude, Gemini, DeepSeek, Kimi, Qwen or GLM. Model-assisted adversarial review: structural completeness 0.992.
 
 ### v4.0 — Execution Semantics (current stable)
 
@@ -134,7 +134,7 @@ Red-team reviewed (GPT-5.5 Pro, 3 rounds). [Read v4.0 Final →](https://github.
 
 | Paper | Status | Links |
 |-------|--------|-------|
-| The Inductive Dilemma of AI Hallucination | Published | [ResearchGate](https://doi.org/10.13140/RG.2.2.22821.97762) / [SSRN](https://papers.ssrn.com/abstract=6377219) / [ChinaXiv](https://chinaxiv.org/abs/T202503.00129) |
+| The Inductive Dilemma of AI Hallucination | Published | [ResearchGate](https://doi.org/10.13140/RG.2.2.22821.97762) / [SSRN](https://papers.ssrn.com/abstract=6377219) |
 | Logic-Layer Attacks: Theory and Examples | Published | PDF |
 | Selective Forgetting Algorithm | In progress | |
 | Cross-Base Genetic Expression of AI Personality | Planned | |
