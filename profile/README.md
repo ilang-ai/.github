@@ -11,6 +11,10 @@
 [![Hugging Face](https://img.shields.io/badge/Hugging%20Face-i--Lang-d4a858?style=for-the-badge&labelColor=0a0d16)](https://huggingface.co/i-Lang)
 [![License](https://img.shields.io/badge/License-MIT-1e3a8a?style=for-the-badge)](LICENSE)
 
+| Official site | Specification | Concept DOI | Creator | Company |
+|---------------|---------------|-------------|---------|---------|
+| [https://ilang.ai](https://ilang.ai) | [https://ilang.ai/spec/](https://ilang.ai/spec/) | [10.5281/zenodo.21821452](https://doi.org/10.5281/zenodo.21821452) | [Long Quan Zhu](https://orcid.org/0009-0004-4540-8082) (Max, @SUN) | iLang Inc. |
+
 </div>
 
 ---
