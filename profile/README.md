@@ -33,7 +33,7 @@ Every AI agent today speaks a slightly different dialect of natural language. Sw
 - **Structured syntax** that carries intent, context, constraints, and output shape in one compact block
 - **Open benchmark harness** — 30 test cases across 6 categories; real-model evaluation in progress ([benchmark](https://github.com/ilang-ai/ilang-Benchmark))
 - **Two syntaxes**: Operations for execution, Declarations for identity
-- **Portable** across Claude, GPT, Gemini, DeepSeek, Kimi, Qwen, GLM, Grok, and more
+- **Tested** on ChatGPT, Claude, Gemini, DeepSeek, Kimi, Qwen and GLM, with results by model at [ilang.ai/benchmark](https://ilang.ai/benchmark/) (May 2026)
 - **Human-readable** plain text. No SDK, no binary, no vendor lock-in
 
 ---
@@ -48,15 +48,15 @@ v3.0 tells AI how to listen. v4.0 tells AI how to think. **v5.0 tells AI how to 
 
 | Component | What it defines |
 |-----------|----------------|
-| Four Axioms | No constant rules, irreversibility gate, consistency detection, co-evolutionary adaptation |
+| Four Axioms | No constant rules, irreversibility gate, consistency detection, externality conservation |
 | 11-Dim Vector | intent, capability, consequence, relationship, certainty, authority, reversibility, evidence, sovereignty, inertia, externality |
 | Three Layers | Exact predicates (binary) → Vector logic (continuous) → Co-evolutionary adaptation |
 | Survival Boundaries | Four irreversible collapse conditions (thermodynamic-style limits, not moral rules) |
-| Eight Modes | EXECUTE, EXECUTE_BOLDLY, OBSERVE, REFRAME, SANDBOX, DEGRADE, ESCALATE, RETREAT |
+| Eight Modes | M1 EXEC_AUTO, M2 EXEC_AUDIT, M3 CONFIRM, M4 ADVISE, M5 ASK, M6 DEFER, M7 DECLINE_ALT, M8 STOP (closed, frozen set) |
 
-**Try it:** Copy [SPEC-v5.0-PRE.md](https://github.com/ilang-ai/ilang-spec/blob/main/SPEC-v5.0-PRE.md) into any AI conversation. Model-assisted adversarial review: 0.992 completeness.
+**Try it:** Copy [SPEC-v5.0-PRE.md](https://github.com/ilang-ai/ilang-spec/blob/main/SPEC-v5.0-PRE.md) into any AI conversation. Model-assisted adversarial review: structural completeness 0.992.
 
-### v4.0 — Execution Semantics (new)
+### v4.0 — Execution Semantics (current stable)
 
 v3.0 tells AI how to listen. **v4.0 tells AI how to think.**
 
@@ -77,12 +77,12 @@ Red-team reviewed (GPT-5.5 Pro, 3 rounds). [Read v4.0 Final →](https://github.
 
 ### Operations — tell AI what to do
 
-**Before** (67 words):
+**Before**:
 > Please read the document I uploaded, extract all the key points and important data, then organize them into a professional summary with bullet points in Markdown format...
 
 **After** (1 line):
 ```
-[READ:@FILE]=>[FILT|key=important]=>[SUM|sty=bullets,ton=pro,fmt=md]=>[OUT]
+[READ:@SRC]=>[EXTC|whr=key_points_and_important_data]=>[SHRT|sty=bullets,ton=formal]=>[FMT|fmt=md]=>[OUT]
 ```
 
 ### Declarations — define who AI is
@@ -102,9 +102,10 @@ Red-team reviewed (GPT-5.5 Pro, 3 rounds). [Read v4.0 Final →](https://github.
 | Component | What it is | Link |
 |-----------|-----------|------|
 | **I-Lang Spec v5.0** | Vector logic judgment (preview) | [SPEC-v5.0-PRE.md](https://github.com/ilang-ai/ilang-spec/blob/main/SPEC-v5.0-PRE.md) |
-| **I-Lang Spec v4.0** | Execution semantics (current) | [SPEC-v4.0-FINAL.md](https://github.com/ilang-ai/ilang-spec/blob/main/SPEC-v4.0-FINAL.md) |
+| **I-Lang Spec v4.1** | Media profile: image, video and audio vocabulary on the v4 stable line | [SPEC-v4.1-MEDIA-PROFILE.md](https://github.com/ilang-ai/ilang-spec/blob/main/SPEC-v4.1-MEDIA-PROFILE.md) |
+| **I-Lang Spec v4.0** | Execution semantics (current stable) | [SPEC-v4.0-FINAL.md](https://github.com/ilang-ai/ilang-spec/blob/main/SPEC-v4.0-FINAL.md) |
 | **I-Lang Spec v3.0** | Communication format (stable) | [SPEC.md](https://github.com/ilang-ai/ilang-spec/blob/main/SPEC.md) |
-| **I-Lang Dict** | 88 verbs, 29 modifiers, 14 entities, 13 Greek aliases | [ilang-dict](https://github.com/ilang-ai/ilang-dict) |
+| **I-Lang Dict** | 88 verbs, 13 Greek aliases, 29 core modifiers plus a 20-key media profile, 25 entities | [ilang-dict](https://github.com/ilang-ai/ilang-dict) |
 | **I-Lang Benchmark** | Open harness: 30 test cases, 6 categories; real-model results in progress | [ilang-Benchmark](https://github.com/ilang-ai/ilang-Benchmark) |
 | **npm** | `npm install @i-language/spec` | [@i-language/spec](https://www.npmjs.com/package/@i-language/spec) |
 
@@ -112,15 +113,16 @@ Red-team reviewed (GPT-5.5 Pro, 3 rounds). [Read v4.0 Final →](https://github.
 
 ## Ecosystem
 
-| Product | What it does | Stars |
-|---------|-------------|-------|
-| [**Imprint**](https://github.com/ilang-ai/Imprint) | Your habits, imprinted on AI. Portable `.dna.md` profile with GENE system. Preset templates including Karpathy Mode. | 100+ ★ |
-| [**AutoCode**](https://github.com/ilang-ai/autocode) | 38+ auto-activated skills for Claude Code / Codex / OpenCode. | 57 ★ |
-| [**OpenClaw Skills + Plugins**](https://github.com/ilang-ai/ilang-openclaw) | 6 skills + 1 plugin. Lazarus, FreeMoney, token compression, and more. [ClawHub](https://clawhub.ai/user/adsorgcn) verified. | |
-| [**Mem-Forever**](https://github.com/ilang-ai/Mem-Forever) | Persistent AI memory. Every AI forgets you after every session. This repo doesn't. | 13 ★ |
-| [**ZeroCode**](https://github.com/ilang-ai/trae) | 40 Chinese skills for Trae / VS Code. Zero code, zero config, zero English. | |
-| [**TelegramGuard**](https://github.com/ilang-ai/TelegramGuard) | Telegram group moderation bot with I-Lang GENE/IMMUNE prompt architecture. | |
-| [**AI See**](https://i.ilang.ai) | Give your AI eyes. `i.ilang.ai/https://any-url` into any conversation. | |
+| Repository | What it does |
+|------------|--------------|
+| [**Imprint**](https://github.com/ilang-ai/Imprint) | Your AI’s DNA: one skill for memory, compression, onboarding, code review, debugging, planning, progress tracking, testing, git workflow, and SEO. It learns your patterns from conversations, encodes them in structure, and carries them across platforms. Use it for any code, project, document, feature, commit, or new session. |
+| [**AutoCode**](https://github.com/ilang-ai/autocode) | You say it. AutoCode ships it. 48 skills. Code to deployment in one session. I-Lang v5.0 judgment + secret-safe deploys. Free forever. |
+| [**iReview**](https://github.com/ilang-ai/iReview) | AI-to-AI code review with I-Lang v5.0 vector judgment. Any model reviews your code; severity judged across dimensions, not keyword-matched. |
+| [**OpenClaw Skills**](https://github.com/ilang-ai/ilang-openclaw) | I-Lang skills for OpenClaw, Hermes, and any AI agent. 88 verbs, zero install, zero ambiguity. |
+| [**Mem-Forever**](https://github.com/ilang-ai/Mem-Forever) | Every AI tool forgets you after every session. This repo doesn't. Ever. Zero install, zero config. Just fork and your AI remembers everything, everywhere, forever. |
+| [**ZeroCode**](https://github.com/ilang-ai/trae) | 40 Chinese skills for Trae / VS Code. Zero code, zero config, zero English. |
+| [**TelegramGuard**](https://github.com/ilang-ai/TelegramGuard) | AI-powered Telegram group guardian. Anti-spam, vision, chat — all driven by I-Lang Prompt Spec. Fork → fill 2 secrets → deploy. Zero cost. |
+| [**AI See**](https://i.ilang.ai) | Give your AI eyes. `i.ilang.ai/https://any-url` into any conversation. |
 
 ---
 
@@ -139,7 +141,7 @@ Red-team reviewed (GPT-5.5 Pro, 3 rounds). [Read v4.0 Final →](https://github.
 
 ## Platforms
 
-Tested and verified on: ChatGPT, Claude, Gemini, DeepSeek, Kimi, Qwen, GLM, Grok, and more.
+Tested on: ChatGPT, Claude, Gemini, DeepSeek, Kimi, Qwen and GLM. Results by model: [ilang.ai/benchmark](https://ilang.ai/benchmark/) (May 2026).
 
 Compatible agents: Claude Code, Codex, Cursor, Copilot, Gemini CLI, Windsurf, Trae, Cline, Roo, OpenClaw, DeepSeek-TUI, and more.
 
@@ -152,7 +154,8 @@ Compatible agents: Claude Code, Codex, Cursor, Copilot, Gemini CLI, Windsurf, Tr
 | Website | [ilang.ai](https://ilang.ai) / [ilang.cn](https://ilang.cn) |
 | npm | [@i-language/spec](https://www.npmjs.com/package/@i-language/spec) |
 | Hugging Face | [i-Lang/iLang-Spec](https://huggingface.co/datasets/i-Lang/iLang-Spec) |
-| Amazon (Book) | [I-Lang: I Language](https://www.amazon.com/dp/B0CZY6V3GM) |
+| Amazon (Book 1, narrative) | [I-Lang: I Language](https://www.amazon.com/dp/B0CZY6V3GM) |
+| Amazon (Book 2, specification) | [I-Lang Protocol Specification](https://www.amazon.com/dp/B0GX32GXF2) |
 | Research | [research.ilang.ai](https://research.ilang.ai) |
 
 ---
