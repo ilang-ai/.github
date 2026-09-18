@@ -111,7 +111,7 @@ Red-team reviewed (GPT-5.5 Pro, 3 rounds). [Read v4.0 Final →](https://github.
 | **I-Lang Spec v4.0** | Execution semantics (current stable) | [SPEC-v4.0-FINAL.md](https://github.com/ilang-ai/ilang-spec/blob/main/SPEC-v4.0-FINAL.md) |
 | **I-Lang Spec v3.0** | Communication format (stable) | [SPEC.md](https://github.com/ilang-ai/ilang-spec/blob/main/SPEC.md) |
 | **I-Lang Dict** | 88 verbs, 13 Greek aliases, 29 core modifiers plus a 20-key media profile, 25 entities | [ilang-dict](https://github.com/ilang-ai/ilang-dict) |
-| **IML (I-Lang Machine Layer)** | Experimental machine form of I-Lang v4.x operation chains, fixed-width codes derived from the canon; 0.4 released, not part of the canon | [iml-protocol](https://github.com/ilang-ai/iml-protocol) |
+| **IML (I-Lang Machine Layer)** | Experimental machine form of I-Lang v4.x documents, operation chains and declarations, fixed-width codes derived from the canon; 0.5 released, not part of the canon | [iml-protocol](https://github.com/ilang-ai/iml-protocol) |
 | **I-Lang Conformance** | Test suite: gold corpora for the grammar, execution and judgment tracks with a standard-library runner and scorer; any vendor model API can be tested | [ilang-conformance](https://github.com/ilang-ai/ilang-conformance) |
 | **I-Lang Benchmark** | Open harness: 30 test cases, 6 categories; real-model results in progress | [ilang-Benchmark](https://github.com/ilang-ai/ilang-Benchmark) |
 | **npm** | `npm install @i-language/spec` | [@i-language/spec](https://www.npmjs.com/package/@i-language/spec) |
