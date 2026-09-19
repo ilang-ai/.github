@@ -106,9 +106,9 @@ Red-team reviewed (GPT-5.5 Pro, 3 rounds). [Read v4.0 Final →](https://github.
 | Component | What it is | Link |
 |-----------|-----------|------|
 | **I-Lang Spec v5.0** | Vector logic judgment (preview) | [SPEC-v5.0-PRE.md](https://github.com/ilang-ai/ilang-spec/blob/main/SPEC-v5.0-PRE.md) |
-| **I-Lang Spec v4.2** | Media regions, masks and image layers on the v4 stable line | [SPEC-v4.2-MEDIA-REGIONS-AND-LAYERS.md](https://github.com/ilang-ai/ilang-spec/blob/main/SPEC-v4.2-MEDIA-REGIONS-AND-LAYERS.md) |
+| **I-Lang Spec v4.2** | Media regions, masks and image layers (current stable) | [SPEC-v4.2-MEDIA-REGIONS-AND-LAYERS.md](https://github.com/ilang-ai/ilang-spec/blob/main/SPEC-v4.2-MEDIA-REGIONS-AND-LAYERS.md) |
 | **I-Lang Spec v4.1** | Media profile: image, video and audio vocabulary on the v4 stable line | [SPEC-v4.1-MEDIA-PROFILE.md](https://github.com/ilang-ai/ilang-spec/blob/main/SPEC-v4.1-MEDIA-PROFILE.md) |
-| **I-Lang Spec v4.0** | Execution semantics (current stable) | [SPEC-v4.0-FINAL.md](https://github.com/ilang-ai/ilang-spec/blob/main/SPEC-v4.0-FINAL.md) |
+| **I-Lang Spec v4.0** | Execution semantics (stable) | [SPEC-v4.0-FINAL.md](https://github.com/ilang-ai/ilang-spec/blob/main/SPEC-v4.0-FINAL.md) |
 | **I-Lang Spec v3.0** | Communication format (stable) | [SPEC.md](https://github.com/ilang-ai/ilang-spec/blob/main/SPEC.md) |
 | **I-Lang Dict** | 88 verbs, 13 Greek aliases, 29 core modifiers plus a 20-key media profile, 25 entities | [ilang-dict](https://github.com/ilang-ai/ilang-dict) |
 | **IML (I-Lang Machine Layer)** | Experimental machine form of I-Lang v4.x documents, operation chains and declarations, fixed-width codes derived from the canon; 0.5 released, not part of the canon | [iml-protocol](https://github.com/ilang-ai/iml-protocol) |
@@ -122,6 +122,7 @@ Red-team reviewed (GPT-5.5 Pro, 3 rounds). [Read v4.0 Final →](https://github.
 
 | Repository | What it does |
 |------------|--------------|
+| [**Agent Ready GEO**](https://github.com/ilang-ai/agent-ready-geo) | Is your site agent-ready? One skill takes it to 100/100 on isitagentready.com with capabilities that actually work: llms.txt, Markdown for agents, WebMCP, MCP, Agent Skills index, DNS-AID. |
 | [**Imprint**](https://github.com/ilang-ai/Imprint) | Your AI’s DNA: one skill for memory, compression, onboarding, code review, debugging, planning, progress tracking, testing, git workflow, and SEO. It learns your patterns from conversations, encodes them in structure, and carries them across platforms. Use it for any code, project, document, feature, commit, or new session. |
 | [**AutoCode**](https://github.com/ilang-ai/autocode) | You say it. AutoCode ships it. 48 skills. Code to deployment in one session. I-Lang v5.0 judgment + secret-safe deploys. Free forever. |
 | [**iReview**](https://github.com/ilang-ai/iReview) | AI-to-AI code review with I-Lang v5.0 vector judgment. Any model reviews your code; severity judged across dimensions, not keyword-matched. |
