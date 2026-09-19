@@ -60,7 +60,7 @@ v3.0 tells AI how to listen. v4.0 tells AI how to think. **v5.0 tells AI how to 
 
 **Try it:** Copy [SPEC-v5.0-PRE.md](https://github.com/ilang-ai/ilang-spec/blob/main/SPEC-v5.0-PRE.md) into ChatGPT, Claude, Gemini, DeepSeek, Kimi, Qwen or GLM. Model-assisted adversarial review: structural completeness 0.992.
 
-### v4.0 — Execution Semantics (current stable)
+### v4.0 — Execution Semantics (stable line; v4.2 is the current stable release)
 
 v3.0 tells AI how to listen. **v4.0 tells AI how to think.**
 
