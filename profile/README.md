@@ -112,7 +112,7 @@ Red-team reviewed (GPT-5.5 Pro, 3 rounds). [Read v4.0 Final →](https://github.
 | **I-Lang Spec v3.0** | Communication format (stable) | [SPEC.md](https://github.com/ilang-ai/ilang-spec/blob/main/SPEC.md) |
 | **I-Lang Dict** | 88 verbs, 13 Greek aliases, 29 core modifiers plus a 20-key media profile, 25 entities | [ilang-dict](https://github.com/ilang-ai/ilang-dict) |
 | **IML (I-Lang Machine Layer)** | Experimental machine form of I-Lang v4.x documents, operation chains and declarations, fixed-width codes derived from the canon; 0.5 released, not part of the canon | [iml-protocol](https://github.com/ilang-ai/iml-protocol) |
-| **I-Lang Conformance** | Test suite: gold corpora for the grammar, execution and judgment tracks with a standard-library runner and scorer; any vendor model API can be tested; first vendor runs scored 2026-09-18 | [ilang-conformance](https://github.com/ilang-ai/ilang-conformance) / [scoreboard](https://github.com/ilang-ai/ilang-conformance/blob/main/report/SCOREBOARD.md) |
+| **I-Lang Conformance** | Test suite: gold corpora for the grammar, execution and judgment tracks with a standard-library runner and scorer; any vendor model API can be tested; 45 model runs scored 18-20 September 2026, 34 of them complete and ranked, none at L1 yet | [ilang-conformance](https://github.com/ilang-ai/ilang-conformance) / [scoreboard](https://github.com/ilang-ai/ilang-conformance/blob/main/report/SCOREBOARD.md) |
 | **I-Lang Benchmark** | Open harness: 30 test cases, 6 categories; real-model results in progress | [ilang-Benchmark](https://github.com/ilang-ai/ilang-Benchmark) |
 | **npm** | `npm install @i-language/spec` | [@i-language/spec](https://www.npmjs.com/package/@i-language/spec) |
 
