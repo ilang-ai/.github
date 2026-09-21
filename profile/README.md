@@ -9,6 +9,7 @@
 [![Website](https://img.shields.io/badge/ilang.ai-0a0d16?style=for-the-badge&labelColor=d4a858&label=%E2%97%86)](https://ilang.ai)
 [![npm](https://img.shields.io/npm/v/@i-language/spec?style=for-the-badge&label=npm&labelColor=0a0d16&color=d4a858)](https://www.npmjs.com/package/@i-language/spec)
 [![Hugging Face](https://img.shields.io/badge/Hugging%20Face-i--Lang-d4a858?style=for-the-badge&labelColor=0a0d16)](https://huggingface.co/i-Lang)
+[![Reddit](https://img.shields.io/badge/Reddit-r%2FiLang-d4a858?style=for-the-badge&labelColor=0a0d16)](https://www.reddit.com/r/iLang/)
 [![License](https://img.shields.io/badge/License-MIT-1e3a8a?style=for-the-badge)](LICENSE)
 
 | Official site | Specification | Concept DOI | Creator | Company |
