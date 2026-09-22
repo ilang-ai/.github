@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/ilang-ai/Imprint/main/imprint-banner.png" alt="I-Lang Protocol" width="100%"/>
+<img src="https://raw.githubusercontent.com/ilang-ai/Imprint/main/imprint-banner.png" alt="iLang Protocol" width="100%"/>
 
-# I-Lang
+# iLang
 
 ### *The AI Communication Protocol*
 
@@ -21,19 +21,19 @@
 ---
 
 > MCP connects AI to tools. A2A connects agents to agents.
-> **I-Lang defines how they communicate — and how they judge.**
+> **iLang defines how they communicate — and how they judge.**
 >
-> I-Lang is the first protocol to formally map Greek mathematical symbols (Σ, Δ, φ, λ, Ω, ∇, μ, Π, ψ, ξ, ζ, θ, ∂) as primitive verbs for AI-to-AI communication, and the first to define a computable vector space for AI judgment (11 dimensions, 4 axioms).
+> iLang is the first protocol to formally map Greek mathematical symbols (Σ, Δ, φ, λ, Ω, ∇, μ, Π, ψ, ξ, ζ, θ, ∂) as primitive verbs for AI-to-AI communication, and the first to define a computable vector space for AI judgment (11 dimensions, 4 axioms).
 >
 > v3.0: Communication format. v4.0: Execution semantics. **v5.0: Vector logic judgment.** Free forever.
 
 ---
 
-## Why I-Lang
+## Why iLang
 
 Every AI agent today speaks a slightly different dialect of natural language. Switching models means relearning prompts. Switching platforms means losing memory. Every conversation pays a "filler tax" of tokens spent on restating what the model should already know.
 
-**I-Lang** is a communication protocol layer that fixes this:
+**iLang** is a communication protocol layer that fixes this:
 
 - **Structured syntax** that carries intent, context, constraints, and output shape in one compact block
 - **Open benchmark harness** — 30 test cases across 6 categories; real-model evaluation in progress ([benchmark](https://github.com/ilang-ai/ilang-Benchmark))
@@ -106,15 +106,15 @@ Red-team reviewed (GPT-5.5 Pro, 3 rounds). [Read v4.0 Final →](https://github.
 
 | Component | What it is | Link |
 |-----------|-----------|------|
-| **I-Lang Spec v5.0** | Vector logic judgment (preview) | [SPEC-v5.0-PRE.md](https://github.com/ilang-ai/ilang-spec/blob/main/SPEC-v5.0-PRE.md) |
-| **I-Lang Spec v4.2** | Media regions, masks and image layers (current stable) | [SPEC-v4.2-MEDIA-REGIONS-AND-LAYERS.md](https://github.com/ilang-ai/ilang-spec/blob/main/SPEC-v4.2-MEDIA-REGIONS-AND-LAYERS.md) |
-| **I-Lang Spec v4.1** | Media profile: image, video and audio vocabulary on the v4 stable line | [SPEC-v4.1-MEDIA-PROFILE.md](https://github.com/ilang-ai/ilang-spec/blob/main/SPEC-v4.1-MEDIA-PROFILE.md) |
-| **I-Lang Spec v4.0** | Execution semantics (stable) | [SPEC-v4.0-FINAL.md](https://github.com/ilang-ai/ilang-spec/blob/main/SPEC-v4.0-FINAL.md) |
-| **I-Lang Spec v3.0** | Communication format (stable) | [SPEC.md](https://github.com/ilang-ai/ilang-spec/blob/main/SPEC.md) |
-| **I-Lang Dict** | 88 verbs, 13 Greek aliases, 29 core modifiers plus a 20-key media profile, 25 entities | [ilang-dict](https://github.com/ilang-ai/ilang-dict) |
-| **IML (I-Lang Machine Layer)** | Experimental machine form of I-Lang v4.x documents, operation chains and declarations, fixed-width codes derived from the canon; 0.5 released, not part of the canon | [iml-protocol](https://github.com/ilang-ai/iml-protocol) |
-| **I-Lang Conformance** | Test suite: gold corpora for the grammar, execution and judgment tracks with a standard-library runner and scorer; any vendor model API can be tested; 45 model runs scored 18-20 September 2026, 34 of them complete and ranked, none at L1 yet | [ilang-conformance](https://github.com/ilang-ai/ilang-conformance) / [scoreboard](https://github.com/ilang-ai/ilang-conformance/blob/main/report/SCOREBOARD.md) |
-| **I-Lang Benchmark** | Open harness: 30 test cases, 6 categories; real-model results in progress | [ilang-Benchmark](https://github.com/ilang-ai/ilang-Benchmark) |
+| **iLang Spec v5.0** | Vector logic judgment (preview) | [SPEC-v5.0-PRE.md](https://github.com/ilang-ai/ilang-spec/blob/main/SPEC-v5.0-PRE.md) |
+| **iLang Spec v4.2** | Media regions, masks and image layers (current stable) | [SPEC-v4.2-MEDIA-REGIONS-AND-LAYERS.md](https://github.com/ilang-ai/ilang-spec/blob/main/SPEC-v4.2-MEDIA-REGIONS-AND-LAYERS.md) |
+| **iLang Spec v4.1** | Media profile: image, video and audio vocabulary on the v4 stable line | [SPEC-v4.1-MEDIA-PROFILE.md](https://github.com/ilang-ai/ilang-spec/blob/main/SPEC-v4.1-MEDIA-PROFILE.md) |
+| **iLang Spec v4.0** | Execution semantics (stable) | [SPEC-v4.0-FINAL.md](https://github.com/ilang-ai/ilang-spec/blob/main/SPEC-v4.0-FINAL.md) |
+| **iLang Spec v3.0** | Communication format (stable) | [SPEC.md](https://github.com/ilang-ai/ilang-spec/blob/main/SPEC.md) |
+| **iLang Dict** | 88 verbs, 13 Greek aliases, 29 core modifiers plus a 20-key media profile, 25 entities | [ilang-dict](https://github.com/ilang-ai/ilang-dict) |
+| **IML (I-Lang Machine Layer)** | Experimental machine form of iLang v4.x documents, operation chains and declarations, fixed-width codes derived from the canon; 0.5 released, not part of the canon | [iml-protocol](https://github.com/ilang-ai/iml-protocol) |
+| **iLang Conformance** | Test suite: gold corpora for the grammar, execution and judgment tracks with a standard-library runner and scorer; any vendor model API can be tested; 45 model runs scored 18-20 September 2026, 34 of them complete and ranked, none at L1 yet | [ilang-conformance](https://github.com/ilang-ai/ilang-conformance) / [scoreboard](https://github.com/ilang-ai/ilang-conformance/blob/main/report/SCOREBOARD.md) |
+| **iLang Benchmark** | Open harness: 30 test cases, 6 categories; real-model results in progress | [ilang-Benchmark](https://github.com/ilang-ai/ilang-Benchmark) |
 | **npm** | `npm install @i-language/spec` | [@i-language/spec](https://www.npmjs.com/package/@i-language/spec) |
 
 ---
@@ -125,12 +125,12 @@ Red-team reviewed (GPT-5.5 Pro, 3 rounds). [Read v4.0 Final →](https://github.
 |------------|--------------|
 | [**Agent Ready GEO**](https://github.com/ilang-ai/agent-ready-geo) | Is your site agent-ready? One skill takes it to 100/100 on isitagentready.com with capabilities that actually work: llms.txt, Markdown for agents, WebMCP, MCP, Agent Skills index, DNS-AID. |
 | [**Imprint**](https://github.com/ilang-ai/Imprint) | Your AI’s DNA: one skill for memory, compression, onboarding, code review, debugging, planning, progress tracking, testing, git workflow, and SEO. It learns your patterns from conversations, encodes them in structure, and carries them across platforms. Use it for any code, project, document, feature, commit, or new session. |
-| [**AutoCode**](https://github.com/ilang-ai/autocode) | You say it. AutoCode ships it. 48 skills. Code to deployment in one session. I-Lang v5.0 judgment + secret-safe deploys. Free forever. |
-| [**iReview**](https://github.com/ilang-ai/iReview) | AI-to-AI code review with I-Lang v5.0 vector judgment. Any model reviews your code; severity judged across dimensions, not keyword-matched. |
-| [**OpenClaw Skills**](https://github.com/ilang-ai/ilang-openclaw) | I-Lang skills for OpenClaw, Hermes, and any AI agent. 88 verbs, zero install, zero ambiguity. |
+| [**AutoCode**](https://github.com/ilang-ai/autocode) | You say it. AutoCode ships it. 48 skills. Code to deployment in one session. iLang v5.0 judgment + secret-safe deploys. Free forever. |
+| [**iReview**](https://github.com/ilang-ai/iReview) | AI-to-AI code review with iLang v5.0 vector judgment. Any model reviews your code; severity judged across dimensions, not keyword-matched. |
+| [**OpenClaw Skills**](https://github.com/ilang-ai/ilang-openclaw) | iLang skills for OpenClaw, Hermes, and any AI agent. 88 verbs, zero install, zero ambiguity. |
 | [**Mem-Forever**](https://github.com/ilang-ai/Mem-Forever) | Every AI tool forgets you after every session. This repo doesn't. Ever. Zero install, zero config. Just fork and your AI remembers everything, everywhere, forever. |
 | [**ZeroCode**](https://github.com/ilang-ai/trae) | 40 Chinese skills for Trae / VS Code. Zero code, zero config, zero English. |
-| [**TelegramGuard**](https://github.com/ilang-ai/TelegramGuard) | AI-powered Telegram group guardian. Anti-spam, vision, chat — all driven by I-Lang Prompt Spec. Fork → fill 2 secrets → deploy. Zero cost. |
+| [**TelegramGuard**](https://github.com/ilang-ai/TelegramGuard) | AI-powered Telegram group guardian. Anti-spam, vision, chat — all driven by iLang Prompt Spec. Fork → fill 2 secrets → deploy. Zero cost. |
 | [**AI See**](https://i.ilang.ai) | Give your AI eyes. `i.ilang.ai/https://any-url` into any conversation. |
 
 ---
@@ -175,7 +175,7 @@ Compatible agents: Claude Code, Codex, Cursor, Copilot, Gemini CLI, Windsurf, Tr
 - Issues and discussions on any repo
 - contact@ilang.ai
 
-Every I-Lang project is **MIT-licensed** and **free forever**.
+Every iLang project is **MIT-licensed** and **free forever**.
 
 ---
 
